@@ -1,0 +1,72 @@
+.s-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  height: 80%;
+  text-align: center;
+}
+.foo {
+  color: black;
+  position: relative;
+}
+.foo:after {
+  content: "";
+  height: 3px;
+  width: 0;
+  top: 50px;
+  right: 35%;
+  position: absolute;
+  background-color: rgb(202, 51, 51);
+  transition: 0.5s;
+}
+.foo:hover::after {
+  width: 35%;
+}
+.s-head {
+  display: flex;
+  flex-direction: column;
+}
+.s-content1 {
+  /* position: relative; */
+  /* top: 500px; */
+  /* left: 30%; */
+  height: 65px;
+  font-size: 60%;
+  width: 250px;
+/* border: 2px solid red; */
+  text-align: center;
+  /* color: white; */
+  opacity: 0.5;
+  background-color: whitesmoke;
+  margin-bottom: 0;
+}
+.s-content1 h3 {
+  font-size: 20px;
+  /* position: absolute; */
+  opacity: 1;
+}
+.test{
+   position: relative; 
+   /* border: 2px solid green; */
+   top:-80px;
+   display: flex;
+   justify-content: center;
+}
+.test-p {
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 1;
+  
+}
+.s-content2 {
+  position: absolute;
+  /* top: 100px;
+  left: 35%; */
+}
+
+.card-text1 {
+   margin-top: -60px;
+  padding: 0 50px;
+  box-sizing: border-box;
+  }

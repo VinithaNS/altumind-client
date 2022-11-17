@@ -1,0 +1,9 @@
+.abt-container{
+  text-align: center;
+}
+.abt-container p{
+    text-align: center;
+    padding: 30px 40px ;
+    justify-content: center;
+    
+}

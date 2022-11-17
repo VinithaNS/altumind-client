@@ -1,0 +1,40 @@
+.foot-image1{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    
+}
+.foot-image ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}  
+.foot-image ul li{
+ list-style-type: none;
+}
+.foot-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.foot-image1{
+    width: 90px;
+    height: 80px;
+}
+.foot-image2{
+    width: 90px;
+    height: 85px;
+}
+.foot-image3{
+    width: 80px;
+    height: 80px;
+}
+.foot-image4{
+    width: 70px;
+    height: 60px;
+}
+.foot-last{
+   text-align: center;
+    align-items: center;
+}

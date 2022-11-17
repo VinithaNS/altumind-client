@@ -1,0 +1,23 @@
+.dev{
+   font-size: 50px;
+}
+.insidebox{
+    background-color: white;
+    padding:50px 10px;
+    margin:30px 0px;
+}
+.card-description {
+  color:gray;
+  font-size: 15px;
+  margin-top: 8px;
+}
+.img{
+    height:200px;
+    width: 200px;
+}
+.serv{
+    display: flex;
+    flex-direction:row;
+    gap: 40px;
+    margin: 40px 20px 40px 20px;
+}

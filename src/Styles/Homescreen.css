@@ -1,0 +1,50 @@
+.final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   gap: 50px;
+}
+.f1{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-img{
+    width: 100%;
+    object-fit: cover;
+}
+.p-info{
+    font-size: 32px;
+    color: #3c3b3b;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+.p-info2{
+   font-family: noto_sansbold;
+    color: #000;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+.sercice-image{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    align-items: center;
+}
+.image{
+width: 100px;
+height: 100px;
+}
+.head-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  margin-top: 25px;
+}
+.head-con h2{
+    font-size: 20px;
+}
